@@ -1,0 +1,90 @@
+fieldset {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "display display display display"
+    "clear clear delete delete"
+    "num-7 num-8 num-9 mult"
+    "num-4 num-5 num-6 sub"
+    "num-1 num-2 num-3 add"
+    "num-0 dot equal divide"
+
+
+
+
+}
+
+fieldset > * {
+  border: 2px solid red;
+  background-color: chartreuse;
+}
+
+#num-0 {
+  grid-area: num-0;
+}
+
+#num-1 {
+  grid-area: num-1;
+}
+
+#num-2 {
+  grid-area: num-2;
+}
+
+#num-3 {
+  grid-area: num-3;
+}
+
+#num-4 {
+  grid-area: num-4;
+}
+
+#num-5 {
+  grid-area: num-5;
+}
+
+#num-6 {
+  grid-area: num-6;
+}
+
+#num-7 {
+  grid-area: num-7;
+}
+
+#num-8 {
+  grid-area: num-8;
+}
+
+#num-9 {
+    grid-area: num-9;
+  }
+#add {
+  grid-area: add;
+}
+
+#sub{
+  grid-area: sub;
+}
+#mult{
+    grid-area: mult;
+}
+#divide{
+    grid-area: divide;
+}
+
+#equal{
+    grid-area: equal;
+}
+#clear{
+    grid-area: clear;
+}
+#delete{
+    grid-area: delete;
+}
+#dot{
+    grid-area: dot;
+}
+#display{
+    grid-area: display;
+    margin-bottom: 10px;
+}
